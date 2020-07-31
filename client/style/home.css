@@ -1,0 +1,45 @@
+/* Over All Styling for App */
+body {
+  width: 100vw;
+  height: 100vh;
+  font: 100% Helvetica, sans-serif;
+  color: #002F9D;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid red;
+  display: flex;
+  width: 95vw;
+  height: 90vh;
+  grid-template-rows: 80px 80px;
+  align-content: center;
+  text-align: center;
+}
+
+#locationcontainer {
+  width: 50%;
+  border: solid 2px blue;
+  background-color: white;
+  justify-self: center;
+}
+
+.datecontainer {
+  width: 50%;
+  height: 150px;
+  border: solid 2px green;
+  background-color: white;
+  justify-self: center;
+}
+
+#submit {
+  width: 50%;
+  border: 2px solid purple;
+  justify-self: center;
+}
+
+/*# sourceMappingURL=home.css.map */

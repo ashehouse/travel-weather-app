@@ -1,0 +1,19 @@
+// styles.sass
+@use 'home';
+
+@media screen and (max-width: 769px){
+
+    body {
+        // Check if you can make this in some type of reusable scss
+        background-image: url(../images/airplane.png);
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-size: cover;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+
+}
