@@ -12,5 +12,5 @@ const getWeather = async (apiUrl) => {
     return data;
     } catch(error) {
         console.log('error', error);
-    };
+    }
 }
